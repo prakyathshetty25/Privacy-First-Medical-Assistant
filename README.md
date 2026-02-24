@@ -37,20 +37,27 @@ Download and install Ollama from ollama.com. Once installed, open your terminal 
 
 Bash
 ollama pull llama3.2
+
 2. Setup the Repository
+
 Bash
 git clone https://github.com/prakyathshetty25/Privacy-First-Medical-Assistant.git
 cd Privacy-First-Medical-Assistant
 
 # Create and activate virtual environment
+
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate 
+# Windows: venv\Scripts\activate
 
 # Install dependencies
+
 pip install streamlit langchain langchain_community ollama
+
 3. Run the App
 Bash
 streamlit run app.py
+
 🏗️ Technical Roadmap: Phase 2 (Under Development)
 We are currently transitioning this project into a RAG (Retrieval-Augmented Generation) system. This will allow the assistant to "read" and analyze specific medical documents (PDFs/Research Papers) uploaded by the user.
 
